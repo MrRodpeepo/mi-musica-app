@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f6f1f6;
+  color: #333;
+  padding: 20px;
+  margin: 0;
+}
+h1 {
+  color: #713271;
+}
+button {
+  background: #AC73AC;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: #713271;
+}
+#genreTabs button {
+  margin: 5px;
+}
+.songCard {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.cover {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+audio {
+  width: 100%;
+  margin-top: 10px;
+}
